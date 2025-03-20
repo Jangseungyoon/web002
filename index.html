@@ -18,8 +18,26 @@
             padding: 1rem 0;
         }
         section {
+            display: flex;
+            justify-content: space-between;
+            padding: 3rem 2rem;
+        }
+        section div {
+            background-color: white;
             padding: 2rem;
-            text-align: center;
+            margin: 0.5rem;
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        p, ul {
+            font-size: 1.1rem;
+            line-height: 1.6;
         }
         footer {
             background-color: #333;
@@ -42,9 +60,7 @@
 
     <!-- 본문 -->
     <section>
-        <h2>환영합니다!</h2>
-        <p>이것은 아주 간단한 웹페이지 예제입니다. 아래의 버튼을 눌러 더 알아보세요!</p>
-        <button onclick="alert('버튼을 눌렀습니다!')">알림 보기</button>
+        
     </section>
 
     <!-- 푸터 -->
